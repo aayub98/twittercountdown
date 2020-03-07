@@ -14,7 +14,7 @@ def calculate_dates():
     return (gradDay - now.today()).days + 1
 
 # new_status = 'happy ' + str(calculate_dates()) + ' days until grad'
-new_status = 'test'
+new_status = 'test3'
 
 with open("config.yml", 'r') as ymlfile:
     cfg = yaml.safe_load(ymlfile)
