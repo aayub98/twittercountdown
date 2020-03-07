@@ -1,5 +1,5 @@
 cron:
   - description: daily tweet job
     url: /tweet
-    schedule: every day 11:44
+    schedule: every day 14:34
     timezone: US/Eastern
